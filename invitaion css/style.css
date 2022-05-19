@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ .card{
+    width: 800px;
+    height: 600px;
+    color:black;
+    font-family: arial;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background-image: url(../couple.png),
+    url(../balck\ bg.jpg);
+    background-size: 206px 260px, 800px 600px, 800px 600px, cover ;
+  background-position: 608px 336px,center ;
+    background-repeat: no-repeat;
+} 
+
+.card a {
+color: black;
+text-decoration: none;
+padding-left: 50%;
+}
+.card p {
+text-align: center;
+margin: 73px ;
+padding-left:237px ;
+line-height: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 5px 6px 13px rgba(0,0,0,0.88);
+}
+.card h1 {
+display: block;
+    text-align: center;
+ padding-left: 29%;
+ text-shadow: 5px 6px 13px rgba(0,0,0,0.88);
+}
